@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# gsettings set org.gnome.system.proxy mode 'auto'
+# gsettings set org.gnome.system.proxy autoconfig-url http://127.0.0.1:8086/proxy.pac
+nohup python /mnt/tools/XX-Net-2.8.9/launcher/start.py
